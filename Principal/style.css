@@ -1,0 +1,70 @@
+
+/*------------------------------     PAGINA PRINCIPAL - INICIO    -----------------------------*/
+/*CUERPO*/
+/* al poner el gradiente en body pierde las propiedades de color del div si es que se comninan 2 colores, si solo se utiliza 1 y transparente, si se pueden ver*/
+body{background: linear-gradient(transparent,grey,transparent)}
+
+/*TITULO*/
+header {color: cadetblue;
+font-size: 40mm;
+text-align: right;}
+
+/*TITULO*/
+.Inicio,.Ubicacion {text-align: center}
+
+/*PRIMERAS PALABRAS*/
+section {color: rgb(18, 21, 21); text-align: center; }
+style h1 {color: black;}
+
+/*1RA IMAGEN*/
+img{margin: 15px; width: 900px; height: 600px; ;}
+
+/*COMENTARIOS DE FAMOSOS*/
+.Edna,.Miranda,.Vogue{background-color: antiquewhite;   }
+.Edna{width: 85%;height: 100px;margin: 20px auto;text-align: right; border-right: solid; padding-right: 20px  ;background-color: bisque; border-radius: 10px;box-shadow: 20px 0 40px  black; }
+.Miranda{width: 85%;height: 100px;margin: 20px auto;text-align: left; border-left: solid; padding-left: 20px; background-color: bisque;border-radius: 10px ;box-shadow: 0 0px 70px  black;}
+.Vogue{ width: 85%;height: 100px;margin: 20px auto;text-align: right;  border-right: solid; padding-right: 20px; background-color: bisque;border-radius: 10px ;box-shadow: 20px 0 40px  black;}
+
+/*CAROUSEL DE FOTOS*/
+.comedor{font-size: 18px; width: 500px;height:60px ;;margin: 50px auto;background-color: rgb(211, 203, 203); text-decoration: underline; }
+
+/*FOOTER*/
+footer{background-color: rgb(181, 181, 181); text-align: center;}
+
+/*------------------------------     SOBRE NOSOTROS      -----------------------------*/
+
+.Historia,.Crecimiento,.Accionar,.Vision { margin:30px;border-radius: 15px;background-color: antiquewhite; box-shadow: 0px 0px 15px black ; padding: 10px 10px;font-size: 20px; text-align: center;}
+.Historia,.Vision{border-right: solid;margin: auto; padding: 20px;}
+.Crecimiento,.Accionar {border-left: solid;margin: auto ;}
+
+.Historia{width: 100%;height:auto; margin-bottom: 30px;}
+.Crecimiento{width: 100%;height:auto ; margin-bottom: 30px;}
+.Vision{width: 100%;height:auto; margin-top: 30px;margin-bottom: 30px }
+.Accionar{width: 100%;height: auto;margin-bottom: 30px; }
+
+.img2{display: flex;justify-content: center;  }
+
+
+
+/*------------------------------     CONTACTENOS        -----------------------------*/
+
+/*ESTRUCTURA Y TITULO*/
+form{background-color: rgb(250, 246, 240); text-align: center; width: 800px;height: 750px; ;margin: auto; border-radius: 15px; ;box-shadow: 0px  0px 30px black; }
+h2 {text-align: center;margin: 0px; text-decoration: underline;}
+
+input {min-width:60%;height:70%;margin:auto; border-radius: 10px ;padding:10px;}
+
+.Nombre,.Telefono,.Apellido,.E-mail,.Pais,.Mensaje,.Edad{padding: 10px 10px;  ;}
+
+textarea{min-width: 75%; resize: vertical;min-height: 100px; max-height: 120px; border-radius: 10px;}
+
+fieldset{margin: 25px; border-radius: 10px; }
+legend{text-align: left;}
+/*------------------------------     UBICACION      -----------------------------*/
+
+
+
+
+
+
+
