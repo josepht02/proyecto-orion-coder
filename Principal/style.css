@@ -3,11 +3,15 @@
 /*CUERPO*/
 /* al poner el gradiente en body pierde las propiedades de color del div si es que se comninan 2 colores, si solo se utiliza 1 y transparente, si se pueden ver*/
 body{background: linear-gradient(transparent,grey,transparent)}
+body{background-image: url(../imagenes/fondo.png.jpg);}
+
+
 
 /*TITULO*/
 header {color: cadetblue;
 font-size: 40mm;
-text-align: right;}
+text-align: right;
+}
 
 /*TITULO*/
 .Inicio,.Ubicacion {text-align: center}
@@ -21,9 +25,9 @@ img{margin: 15px; width: 900px; height: 600px; ;}
 
 /*COMENTARIOS DE FAMOSOS*/
 .Edna,.Miranda,.Vogue{background-color: antiquewhite;   }
-.Edna{width: 85%;height: 100px;margin: 20px auto;text-align: right; border-right: solid; padding-right: 20px  ;background-color: bisque; border-radius: 10px;box-shadow: 20px 0 40px  black; }
-.Miranda{width: 85%;height: 100px;margin: 20px auto;text-align: left; border-left: solid; padding-left: 20px; background-color: bisque;border-radius: 10px ;box-shadow: 0 0px 70px  black;}
-.Vogue{ width: 85%;height: 100px;margin: 20px auto;text-align: right;  border-right: solid; padding-right: 20px; background-color: bisque;border-radius: 10px ;box-shadow: 20px 0 40px  black;}
+.Edna{width: 85%;height: 140px;margin: 20px auto;text-align: right; border-right: solid; padding-right: 20px  ;background-color: bisque; border-radius: 10px;box-shadow: 20px 0 40px  black; }
+.Miranda{width: 85%;height: 140px;margin: 20px auto;text-align: left; border-left: solid; padding-left: 20px; background-color: bisque;border-radius: 10px ;box-shadow: 0 0px 70px  black;}
+.Vogue{ width: 85%;height: 140px;margin: 20px auto;text-align: right;  border-right: solid; padding-right: 20px; background-color: bisque;border-radius: 10px ;box-shadow: 20px 0 40px  black;}
 
 /*CAROUSEL DE FOTOS*/
 .comedor{font-size: 18px; width: 500px;height:60px ;;margin: 50px auto;background-color: rgb(211, 203, 203); text-decoration: underline; }
